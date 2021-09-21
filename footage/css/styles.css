@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("../bg.gif");
+	background-attachment: fixed;
+	background-size: contain;
+}
+#audio {
+	display: none;
+}
