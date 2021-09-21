@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?7a5a7a7d708a1797544059773aaf9a4c") format("truetype"),
+url("./flaticon.woff?7a5a7a7d708a1797544059773aaf9a4c") format("woff"),
+url("./flaticon.woff2?7a5a7a7d708a1797544059773aaf9a4c") format("woff2"),
+url("./flaticon.eot?7a5a7a7d708a1797544059773aaf9a4c#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7a5a7a7d708a1797544059773aaf9a4c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-3d-cube:before {
+    content: "\f101";
+}
+.flaticon-abstract:before {
+    content: "\f102";
+}
+.flaticon-adobe-illustrator:before {
+    content: "\f103";
+}
+.flaticon-adobe-photoshop:before {
+    content: "\f104";
+}
+.flaticon-blender-1:before {
+    content: "\f105";
+}
+.flaticon-computer:before {
+    content: "\f106";
+}
+.flaticon-linkedin:before {
+    content: "\f107";
+}
+.flaticon-personallogo:before {
+    content: "\f108";
+}
+.flaticon-substance-icon:before {
+    content: "\f109";
+}

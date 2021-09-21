@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7a5a7a7d708a1797544059773aaf9a4c") format("truetype"),
+url("./flaticon.woff?7a5a7a7d708a1797544059773aaf9a4c") format("woff"),
+url("./flaticon.woff2?7a5a7a7d708a1797544059773aaf9a4c") format("woff2"),
+url("./flaticon.eot?7a5a7a7d708a1797544059773aaf9a4c#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7a5a7a7d708a1797544059773aaf9a4c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "3d-cube": "\f101",
+    "abstract": "\f102",
+    "adobe-illustrator": "\f103",
+    "adobe-photoshop": "\f104",
+    "blender-1": "\f105",
+    "computer": "\f106",
+    "linkedin": "\f107",
+    "personallogo": "\f108",
+    "substance-icon": "\f109",
+);
+
+.flaticon-3d-cube:before {
+    content: map-get($flaticon-map, "3d-cube");
+}
+.flaticon-abstract:before {
+    content: map-get($flaticon-map, "abstract");
+}
+.flaticon-adobe-illustrator:before {
+    content: map-get($flaticon-map, "adobe-illustrator");
+}
+.flaticon-adobe-photoshop:before {
+    content: map-get($flaticon-map, "adobe-photoshop");
+}
+.flaticon-blender-1:before {
+    content: map-get($flaticon-map, "blender-1");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-personallogo:before {
+    content: map-get($flaticon-map, "personallogo");
+}
+.flaticon-substance-icon:before {
+    content: map-get($flaticon-map, "substance-icon");
+}
