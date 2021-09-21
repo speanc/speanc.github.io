@@ -6,6 +6,18 @@
 
 jQuery(document).ready(function($) {
 
+////////////////////////////////////////////////////////////////	
+// Parallaxmouse js
+
+    function parallaxMouse() {
+        if ($('#parallax').length) {
+            var scene = document.getElementById('parallax');
+            var parallax = new Parallax(scene);
+        };
+    };
+    parallaxMouse();	
+////////////////////////////////////////////////////////////////
+	
 	"use strict";
 
 	

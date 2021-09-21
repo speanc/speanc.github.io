@@ -17,8 +17,84 @@
     font-display: swap;
 }
 
+
+.nocolor{
+	color: #777 !important;
+}
+
+.header-content {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+  @media (max-width: 991px) {
+    #Bruh {
+      display: none; } }
+
+ @media (min-width: 992px) {
+    #Bruh {
+/*	display: flex;*/
+} }
+a:hover {
+	color: #EA520D !important;
+}
+
+/*
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-content {
+      height: 550px; } }
+
+  @media (max-width: 767px) {
+    .header-content {
+      height: 550px; } }
+*/
+
+  .header-content .header-shape {
+    position: absolute !important;
+}
+
+.header-content .header-shape .shape-one {
+      top: 0% !important;
+      left: 0% !important; 
+width: 20% !important;
+}
+
+
+#bannerimageyee{
+	pointer-events: none;
+}
+
+a {
+	color: #F26424;
+}
+.btn-primary{
+	background-color: #F26424;
+	border-color: #FFFFFF;
+}
+.btn-primary:hover{
+	background-color: #CA470B;
+	border-color: #F26464;
+}
+
+.galleryLightbg {
+	background-color: #FFFFFF !important;
+}
 ul{
 	list-style: none !important;
+}
+#FooterLine{
+	color: #f26424;
+	border-radius: 10px;
+	border: 1px solid #F26424;
+	width: 20vw;
+}
+.mySocials a{
+	color: #F26424 !important;
+}
+.aboutLinks a{
+	color: #888888;
+	font-weight: bold;
 }
 .justifiedtext{
   text-align: justify;
@@ -32,13 +108,32 @@ ul{
 .orange {
 	color: #F26424 !important;
 }
+
 .navbarName{
-	font-size: 54px !important;
+	font-size: 80% !important;
 	display: inline;
 }
 #BarLogo {
 	font-size: 48px !important;
 }
+
+.PleaseWork img{
+	width: 100%;
+}
+
+.PleaseWork img:last-child {
+  display: none; 
+}
+.PleaseWork:hover img:last-child {
+  display: block;
+}
+.PleaseWork:hover img:first-child {
+  display: none;  
+}
+
+
+
+
 body {
   line-height: 1.7;
   color: #777;
@@ -89,8 +184,11 @@ a:hover {
   opacity: 0;
   visibility: hidden;
 }
+.site-wrap .header-shape{
+	pointer-events: none;
+}
 .offcanvas-menu .site-wrap {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -1388,25 +1486,6 @@ a:hover {
 
 
 
-.bootyhole{
-	background-image: url("../images/3DThumbnailInactive.jpg");
-	background-size: cover;
-}
-.bootyhole:hover{
-	background-image: url("../images/3DThumbnail.jpg");
-}
-.mainpagetb{
-	width: 48vw !important;
-	height: 48vw;
-}
-
-.bootyhole{
-	background-image: url("../images/3DThumbnailInactive.jpg");
-	background-size: cover;
-}
-.bootyhole:hover{
-	background-image: url("../images/3DThumbnail.jpg");
-}
 
 
 

@@ -27,62 +27,47 @@
     </div>
     <div class="site-mobile-menu-body"></div>
   </div>
-        <header class="site-navbar py-3" role="banner">
-
-      <div class="container-fluid">
-        <div class="row align-items-center">
-
-          <div class="col-6 col-xl-3" data-aos="fade-down">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 bebas"><i class="flaticon-personallogo" id="BarLogo"></i> <div class="navbarName"> &nbsp;Spencer Nelson</div></a></h1>
+   <header class="site-navbar py-3" role="banner">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-6 col-xl-3" data-aos="fade-down">
+          <h1 class="mb-0"><a href="index.html" class="text-white h2 bebas"><img src="images/banner.svg" alt="Website Banner" id="bannerimageyee"></a></h1>
+        </div>
+        <div class="col-2 col-md-6 d-none d-xl-block" data-aos="fade-down">
+          <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+              <li><a href="index.html">Home</a></li>
+              <li class="has-children"> <a href="#">Gallery</a>
+                <ul class="dropdown">
+                  <br>
+                  <li class="has-children"> <a href="#">Portfolio</a>
+                    <ul class="dropdown">
+                      <li><a href="3D.html">3D</a></li>
+                      <li><a href="2D.html">2D</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="CombinedGallery.html">Gallery</a></li>
+                </ul>
+              </li>
+              <li><a href="services.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-6 col-xl-3 text-right" data-aos="fade-down">
+          <div class="d-none d-xl-inline-block mySocials">
+            <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+              <li> <a href="https://www.linkedin.com/in/spencer-nelson-488077208/" target="_blank" class="pl-0 pr-3"><span class="icon-linkedin-square"></span></a> </li>
+              <li> <a href="https://www.instagram.com/spencernelson.design/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a> </li>
+              <li> <a href="https://www.youtube.com/channel/UC_wRHMaHiE5iSk5jEhw7JrA" target="_blank" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a> </li>
+            </ul>
           </div>
-          <div class="col-2 col-md-6 d-none d-xl-block" data-aos="fade-down">
-            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
-
-              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li class="has-children">
-                  <a href="CombinedGallery.html">Gallery</a>
-                  <ul class="dropdown"><br>
-                <li class="has-children">
-                  <a href="#">Portfolio</a>
-                  <ul class="dropdown">
-                    <li><a href="3D.html">3D</a></li>
-                    <li><a href="2D.html">2D</a></li>
-                  </ul>
-                </li>
-                    <li><a href="CombinedGallery.html">Gallery</a></li>
-                  </ul>
-                </li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-
-          <div class="col-6 col-xl-3 text-right" data-aos="fade-down">
-            <div class="d-none d-xl-inline-block mySocials">
-              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
-                <li>
-                  <a href="https://www.linkedin.com/in/spencer-nelson-488077208/" target="_blank" class="pl-0 pr-3"><span class="icon-linkedin-square"></span></a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/spencernelson.design/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/channel/UC_wRHMaHiE5iSk5jEhw7JrA" target="_blank" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-          </div>
-
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
         </div>
       </div>
-      
-    </header>
+    </div>
+  </header>
 	
   <div class="site-section"  data-aos="fade">
     <div class="container-fluid">
@@ -116,12 +101,14 @@
       <h3 class="my-3">Objective</h3>
       <p class="justifiedtext">Create a portrait of myself, in a style I personally enjoy</p>
 	<h3 class="my-3">Reflection</h3>
-      <p class="justifiedtext">A lot of artists struggle with self portraits, which is something I believe that digital artists have an advantage with. When I tackled making a self portrait of myself, I was getting into AI and how it can be used to make art, so I used a handful of deep dream algorithms to blend a photo of myself with various grunge and corrupted images. I ended up researching Datamoshing, which led me to use code to shift the RGB channels of the image and glitch it around for an even more pleasing effect. By the end of the project, I think the image went through around 25 steps before arriving at it’s final look.</p>
+      <p class="justifiedtext">A lot of artists struggle with self portraits, which is something I believe that digital artists have an advantage with. When I tackled making a self portrait of myself, I was getting into AI and how it can be used to make art, so I used a handful of deep dream algorithms to blend a photo of myself with various grunge and corrupted images. I ended up researching Datamoshing, which led me to use code to shift the RGB channels of the image and glitch it around for an even more pleasing effect. By the end of the project, I think the image went through around 25 steps before arriving at its final look.</p>
       <h3 class="my-3">Resources Used</h3>
       <ul>
-		  <li><i class="flaticon-adobe-photoshop"></i> &nbsp;Adobe Photoshop</li>
-		  <li><i class="flaticon-world"></i> &nbsp;<a href="http://datamoshing.com/2016/06/29/how-to-glitch-images-using-rgb-channel-shifting/" alt="Datamoshing Information Website" target="_blank">Datamoshing Info</a></li>
+		  <li><a href="https://www.photoshop.com/" target="_blank" alt="Photoshop" class="nocolor"><i class="flaticon-adobe-photoshop"></i> &nbsp;Adobe Photoshop</a></li>
+		  <li><a href="http://datamoshing.com/2016/06/29/how-to-glitch-images-using-rgb-channel-shifting/" alt="Datamoshing Information Website" target="_blank" class="nocolor"><i class="flaticon-world"></i> &nbsp;Datamoshing Info</a></li>
       </ul>
+		<h3 class="my-3">Date Completed</h3>
+		<p class="text-white">December 13th, 2020</p>
     </div>
 
   </div>
@@ -130,27 +117,27 @@
   <!-- Related Projects Row -->
   <h3 class="my-4">Gallery</h3>
 
-  <div class="row lightbox">
+  <div class="row lightbox" id="lightgallery">
 
-    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="col-md-3 col-sm-6 mb-4" data-aos="fade" data-src="http://i.imgur.com/lGPeWCK.jpg" data-sub-html="<h4>Step 1</h4><p>This is where the project started, just a picture of me!</p>">
       <a href="#">
             <img class="img-fluid" src="http://i.imgur.com/qwEV8Ek.png" alt="">
           </a>
     </div>
 
-    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="col-md-3 col-sm-6 mb-4" data-aos="fade" data-src="http://i.imgur.com/32LFlge.jpg" data-sub-html="<h4>Step 2</h4><p>At this stage, I used AI tools to blend the photo with a stylized image</p>">
       <a href="#">
             <img class="img-fluid" src="http://i.imgur.com/TM1NgDs.png" alt="">
           </a>
     </div>
 
-    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="col-md-3 col-sm-6 mb-4" data-aos="fade" data-src="http://i.imgur.com/CUdBwGk.jpeg" data-sub-html="<h4>Step 3</h4><p>At this point, the AI tools I was using weren't outputting at a great resolution. Solution: upscale it, apply some effects, and boom!</p>">
       <a href="#">
             <img class="img-fluid" src="http://i.imgur.com/qXPiItm.png" alt="">
           </a>
     </div>
 
-    <div class="col-md-3 col-sm-6 mb-4">
+    <div class="col-md-3 col-sm-6 mb-4" data-aos="fade" data-src="http://i.imgur.com/5bDJze2.jpg" data-sub-html="<h4>Step 4 (Final)</h4><p>At this stage, some channel shifting and colorizing took place, which brought me to the finished product</p>">
       <a href="#">
             <img class="img-fluid" src="http://i.imgur.com/JXUX4x7.png" alt="">
           </a>
@@ -167,9 +154,7 @@
   </div>
   <div class="footer py-4">
     <div class="container-fluid text-center">
-      <p> 
-
-      </p>
+      <p> Spencer Nelson | 2021 </p>
     </div>
   </div>
 </div>

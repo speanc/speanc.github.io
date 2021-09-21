@@ -5,8 +5,8 @@
     $fname = $_POST["fname"];
     $lname = $_POST["lname"];
     $email = $_POST["email"];
-    $message = wordwrap($_POST["message"], 70);
+    $message = $_POST["message"];
 
-    mail("kaydenvanrijnps@gmail.com", "ASDF", "Nigga");
+    mail("spencer.nelsongd@gmail.com", "$fname $lname sent you a message on 'Spencer Nelson Online'", "$message");
   }
 ?>

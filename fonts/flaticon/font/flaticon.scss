@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?7a5a7a7d708a1797544059773aaf9a4c") format("truetype"),
-url("./flaticon.woff?7a5a7a7d708a1797544059773aaf9a4c") format("woff"),
-url("./flaticon.woff2?7a5a7a7d708a1797544059773aaf9a4c") format("woff2"),
-url("./flaticon.eot?7a5a7a7d708a1797544059773aaf9a4c#iefix") format("embedded-opentype"),
-url("./flaticon.svg?7a5a7a7d708a1797544059773aaf9a4c#flaticon") format("svg");
+    src: url("./flaticon.ttf?a5d4ba2a319a4e136bd84b568546c3d8") format("truetype"),
+url("./flaticon.woff?a5d4ba2a319a4e136bd84b568546c3d8") format("woff"),
+url("./flaticon.woff2?a5d4ba2a319a4e136bd84b568546c3d8") format("woff2"),
+url("./flaticon.eot?a5d4ba2a319a4e136bd84b568546c3d8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a5d4ba2a319a4e136bd84b568546c3d8#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -30,6 +30,7 @@ $flaticon-map: (
     "linkedin": "\f107",
     "personallogo": "\f108",
     "substance-icon": "\f109",
+    "world": "\f10a",
 );
 
 .flaticon-3d-cube:before {
@@ -58,4 +59,7 @@ $flaticon-map: (
 }
 .flaticon-substance-icon:before {
     content: map-get($flaticon-map, "substance-icon");
+}
+.flaticon-world:before {
+    content: map-get($flaticon-map, "world");
 }
